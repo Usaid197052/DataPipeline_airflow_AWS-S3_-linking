@@ -14,7 +14,7 @@ df = pd.read_csv(raw_path)
 print("Data loaded.")
 
 # ---------------------------
-# CLEANING
+
 df.drop_duplicates(inplace=True)
 df.fillna("N/A", inplace=True)
 
