@@ -25,7 +25,7 @@ processed_path = os.path.join(PROJECT_ROOT, "data", "processed", "cleaned_api_da
 
 # ---------------------------
 # LOAD DATA
-# ---------------------------
+
 df = pd.read_csv(processed_path)
 
 print("Data loaded.")
