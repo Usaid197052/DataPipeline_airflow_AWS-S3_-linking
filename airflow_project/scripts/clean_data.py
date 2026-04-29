@@ -19,7 +19,7 @@ df.drop_duplicates(inplace=True)
 df.fillna("N/A", inplace=True)
 
 # ---------------------------
-# FEATURE ENGINEERING
+
 
 df['title_length'] = df['title'].apply(len)
 
