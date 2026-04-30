@@ -30,8 +30,6 @@ CREATE TABLE IF NOT EXISTS api_data (
     title_length INT
 )
 """)
-
-
 cursor.execute("TRUNCATE TABLE api_data")
 
 
