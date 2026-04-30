@@ -46,7 +46,6 @@ CREATE TABLE IF NOT EXISTS api_data (
 
 cursor.execute("TRUNCATE TABLE api_data")
 
-# ---------------------------
 
 
 for _, row in df.iterrows():
