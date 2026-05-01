@@ -10,9 +10,7 @@ raw_path = os.path.join(PROJECT_ROOT, "data", "raw", "api_data.csv")
 processed_path = os.path.join(PROJECT_ROOT, "data", "processed", "cleaned_api_data.csv")
 
 df = pd.read_csv(raw_path)
-
 print("Data loaded.")
-
 
 df.drop_duplicates(inplace=True)
 df.fillna("N/A", inplace=True)
@@ -21,7 +19,6 @@ df.fillna("N/A", inplace=True)
 
 
 df['title_length'] = df['title'].apply(len)
-
 print("Feature engineering complete.")
 
 
