@@ -17,7 +17,6 @@ df.fillna("N/A", inplace=True)
 
 
 
-
 df['title_length'] = df['title'].apply(len)
 print("Feature engineering complete.")
 
