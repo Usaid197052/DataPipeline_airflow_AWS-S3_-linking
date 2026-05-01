@@ -2,9 +2,9 @@ import boto3
 
 s3 = boto3.client(
     's3',
-    access_key_id='key_id',
-    secret-access_key='Secret_key_id',
-    region_name='your_region'
+    #aws_access_key_id='your key id',
+    #aws_secret_access_key='your secret access',
+    region_name='eu-north-1'#
 )
 
 file_name = "/opt/airflow/data/processed/cleaned_api_data.csv"
